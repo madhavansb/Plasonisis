@@ -30,7 +30,7 @@ class _DiseaseDiagnosisScreenState extends State<DiseaseDiagnosisScreen> {
 
         final request = http.MultipartRequest(
           'POST',
-          Uri.parse('http://172.16.9.32:5001/api/disease-diagnosis'),
+          Uri.parse('http://your_api:5001/api/disease-diagnosis'),
         );
 
         request.files.add(http.MultipartFile.fromBytes(
