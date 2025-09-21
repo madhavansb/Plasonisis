@@ -12,7 +12,7 @@ class _WeatherNewsScreenState extends State<WeatherNewsScreen> {
   Map<String, dynamic>? _weatherData;
   bool _isLoading = false;
 
-  final String apiKey = "2ff5c46111e476da27a91bf4bae7cd4c";
+  final String apiKey = "your_api";
 
   Future<void> _fetchWeather() async {
     if (_cityController.text.isEmpty) return;
