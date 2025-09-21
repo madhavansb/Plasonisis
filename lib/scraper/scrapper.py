@@ -9,7 +9,7 @@ from selenium.common.exceptions import NoSuchElementException
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Mad@2006",
+    password="your_password",
     database="plasonisis"
 )
 cursor = db.cursor()
