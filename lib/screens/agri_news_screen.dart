@@ -20,7 +20,7 @@ class _AgriNewsScreenState extends State<AgriNewsScreen> {
   Future<void> fetchAgriNews() async {
     try {
       final response = await http.get(
-        Uri.parse("http://172.16.9.32:5000/api/agri-news"), // Use your LAN IP
+        Uri.parse("http://your_ip:5000/api/agri-news"), // Use your LAN IP
       );
 
       if (response.statusCode == 200) {
