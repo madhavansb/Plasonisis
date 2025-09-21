@@ -17,7 +17,7 @@ class _CropPricesScreenState extends State<CropPricesScreen> {
   Future<void> _fetchDailyPrices() async {
     try {
       final response = await http.get(
-        Uri.parse("http://172.16.9.32:5002/daily_prices"),
+        Uri.parse("http://your_ip:5002/daily_prices"),
       );
 
       if (response.statusCode == 200) {
