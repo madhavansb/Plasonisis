@@ -5,7 +5,7 @@ import requests
 app = Flask(__name__)
 CORS(app)
 
-NEWS_API_KEY = "305e4bb5314f49a584fd4e9e60a4a097"  # Replace with your actual NewsAPI key
+NEWS_API_KEY = "your_key"  # Replace with your actual NewsAPI key
 
 @app.route("/api/agri-news", methods=["GET"])
 def agri_news():
