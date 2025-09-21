@@ -16,7 +16,7 @@ class _AIChatbotScreenState extends State<AIChatbotScreen> {
 
   // IMPORTANT: Replace with your actual Gemini API key
   // Do NOT share this key publicly or commit it to version control.
-  final String apiKey = "AIzaSyB26i5Wdo-BAgLBBmyDCfwjJ1mPTAviC8A";
+  final String apiKey = "your_key";
 
   Future<void> _sendMessage(String prompt) async {
     if (prompt.isEmpty) return;
